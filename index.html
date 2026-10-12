@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Almacén Zona Norte — Productos naturales y a granel en Olivos</title>
+<meta name="description" content="Legumbres, frutos secos, harinas integrales y productos sin TACC, pesados al momento. Almacén de barrio en Olivos, Vicente López. Consultá disponibilidad por WhatsApp.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Almacén Zona Norte — Productos naturales y a granel en Olivos">
+<meta property="og:description" content="Legumbres, frutos secos, harinas integrales y productos sin TACC, pesados al momento delante tuyo.">
+<meta property="og:image" content="img/hero.webp">
+<meta property="og:locale" content="es_AR">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GroceryStore",
+  "name": "Almacén Zona Norte",
+  "image": "img/hero.webp",
+  "telephone": "+5491166662233",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. del Libertador 2340",
+    "addressLocality": "Olivos, Vicente López",
+    "addressRegion": "Buenos Aires",
+    "addressCountry": "AR"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "14:00"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<header class="site-header container">
+  <div class="brand">
+    <span class="brand-badge serif" aria-hidden="true">a</span>
+    <div>
+      <p class="brand-name serif">Almacén Zona Norte</p>
+      <p class="brand-tagline">Natural · a granel · de barrio</p>
+    </div>
+  </div>
+  <nav class="site-nav" aria-label="Navegación principal">
+    <a href="#catalogo">Catálogo</a>
+    <a href="#semana">Esta semana</a>
+    <a href="#visitanos">Horarios</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero container">
+    <div>
+      <h1 class="hero-title">Productos naturales, <em>de tu barrio.</em></h1>
+      <p class="hero-text">Legumbres, frutos secos, harinas integrales y sin TACC, pesados al momento delante tuyo. Traé tu frasco y te lo llenamos.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" data-wa-link target="_blank" rel="noopener">Consultar disponibilidad</a>
+        <a class="btn-text" href="#catalogo">Ver qué hay ↓</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="hero-media-shape" aria-hidden="true"></div>
+      <figure class="hero-media-frame" style="margin: 0">
+        <img src="img/hero.webp" alt="Interior del almacén, con estanterías de productos naturales" width="1600" height="1200" fetchpriority="high">
+      </figure>
+      <div class="hero-badge">
+        <div>
+          <p class="hero-badge-num serif">250 g</p>
+          <p class="hero-badge-label">compra mínima</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="catalogo" class="catalogo-section">
+    <div class="container">
+      <div class="catalogo-head">
+        <h2>El mostrador</h2>
+        <p>Precios por WhatsApp: cambian seguido y preferimos pasártelos al día.</p>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Categorías del catálogo">
+        <button class="tab" role="tab" id="tab-granel" aria-controls="panel-catalogo" aria-selected="true" tabindex="0" data-cat="granel">A granel</button>
+        <button class="tab" role="tab" id="tab-tacc" aria-controls="panel-catalogo" aria-selected="false" tabindex="-1" data-cat="tacc">Sin TACC</button>
+        <button class="tab" role="tab" id="tab-almacen" aria-controls="panel-catalogo" aria-selected="false" tabindex="-1" data-cat="almacen">Almacén</button>
+      </div>
+
+      <div class="tab-panel" id="panel-catalogo" role="tabpanel" aria-labelledby="tab-granel" tabindex="0">
+        <p class="tab-nota" id="tab-nota"></p>
+        <div class="items-grid" id="items-grid"></div>
+        <p class="catalogo-foot">¿No está lo que buscás? <a data-wa-link target="_blank" rel="noopener">Preguntanos</a>: casi siempre lo conseguimos para la semana siguiente.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="semana" class="semana-section">
+    <div class="container">
+      <p class="semana-kicker">Semana del 21 al 27</p>
+      <h2>Esta semana recomendamos</h2>
+      <div class="destacados-grid">
+        <article class="destacado">
+          <figure class="destacado-media" style="margin: 0">
+            <img src="img/destacado-1.webp" alt="Lentejas a la vista en el mostrador del almacén" width="1200" height="1600" loading="lazy">
+          </figure>
+          <div class="destacado-body">
+            <span class="destacado-num serif">01</span>
+            <div>
+              <h3>Lentejón nuevo</h3>
+              <p>Cosecha de este año, grano grande. Se hace en veinte minutos sin remojo largo.</p>
+            </div>
+          </div>
+        </article>
+        <article class="destacado">
+          <div class="destacado-placeholder">Foto del mix de frutos secos — pendiente</div>
+          <div class="destacado-body">
+            <span class="destacado-num serif">02</span>
+            <div>
+              <h3>Mix de la casa</h3>
+              <p>Almendra, nuez, castaña y pasas, sin sal ni azúcar. Lo armás a tu gusto.</p>
+            </div>
+          </div>
+        </article>
+        <article class="destacado">
+          <div class="destacado-placeholder">Foto de premezcla sin TACC — pendiente</div>
+          <div class="destacado-body">
+            <span class="destacado-num serif">03</span>
+            <div>
+              <h3>Premezcla sin TACC</h3>
+              <p>Para pizza, tartas y budines. Marca certificada, bolsa de un kilo.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="container cta-band-wrap">
+    <div class="cta-band">
+      <h2>Preguntá antes de venir, te lo dejamos separado.</h2>
+      <div class="cta-band-actions">
+        <p>Mandanos la lista por WhatsApp. Te confirmamos stock y precio del día, y lo retirás cuando quieras.</p>
+        <a class="btn btn-light" data-wa-link target="_blank" rel="noopener">WhatsApp · 11 6666-2233</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="visitanos" class="container visitanos-section">
+    <div>
+      <h2>Horarios</h2>
+      <div class="horarios-list">
+        <div class="horario-row"><span>Lunes a viernes</span><span class="horario-hora serif">9 a 20</span></div>
+        <div class="horario-row"><span>Sábados</span><span class="horario-hora serif">9 a 14</span></div>
+        <div class="horario-row cerrado"><span>Domingos</span><span class="horario-hora serif">Cerrado</span></div>
+      </div>
+      <p class="direccion-text">Av. del Libertador 2340, Olivos<br>Frente a la plaza, a cuatro cuadras de la estación.</p>
+      <p class="envio-text">Envíos en Vicente López y Olivos con pedido mínimo.</p>
+      <a class="btn-text" data-maps-link target="_blank" rel="noopener">Cómo llegar →</a>
+    </div>
+    <div class="mapa-frame">
+      <iframe title="Mapa de la zona" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-58.500%2C-34.535%2C-58.470%2C-34.515&amp;layer=mapnik&amp;marker=-34.525%2C-58.485"></iframe>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="footer-brand serif">Almacén Zona Norte</p>
+    <p class="footer-meta">Av. del Libertador 2340, Olivos · 11 6666-2233</p>
+  </div>
+</footer>
+
+<a class="wa-float" data-wa-link target="_blank" rel="noopener">Pedir por WhatsApp</a>
+
+<script src="config.js"></script>
+<script src="catalogo.js"></script>
+<script src="script.js" defer></script>
+</body>
+</html>
